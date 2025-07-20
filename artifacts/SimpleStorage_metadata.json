@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.30+commit.73712a01"
 	},
 	"language": "Solidity",
 	"output": {
@@ -24,6 +24,42 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "emma",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "Name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "liam",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "Name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -32,6 +68,43 @@
 					}
 				],
 				"name": "listOfPeople",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "Name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameToFavouriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "noah",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -107,7 +180,7 @@
 		"compilationTarget": {
 			"SimpleStorage.sol": "SimpleStorage"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "prague",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -120,11 +193,11 @@
 	},
 	"sources": {
 		"SimpleStorage.sol": {
-			"keccak256": "0xcf5b93e51e36d9f24df59d4b5221d12436c1ac312c99c395ced2f58cf0ef707d",
+			"keccak256": "0x02b3ad9762bfe6c252e5ba4fca6d86007e18114335ba6e910099c398f50943d5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://07340b3099220a2c9b78c80e74213811c9b00b8a6b569bfdc92104d5f0c985dc",
-				"dweb:/ipfs/QmdTq63wB9Vf8b9xY5G8Fa33MK6g4XAVvojoMwudPDwV6C"
+				"bzz-raw://4f81f2387359d52d63b122634612070beaf176c4c78045d29a643082b44938f4",
+				"dweb:/ipfs/QmNe7MLsXqxkwvK4qDcNt8vApkSJQW4oTN2sNshDygSCoS"
 			]
 		}
 	},
