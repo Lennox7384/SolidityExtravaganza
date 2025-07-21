@@ -7,7 +7,7 @@ contract SimpleStorage{
     uint256  myfavoriteNumber; // Storage varible because it exists whithin a contract but outside of a function. 
 
     //Setter
-    function store (uint256 _favoriteNumber) public {
+    function store (uint256 _favoriteNumber) public virtual  {
         myfavoriteNumber= _favoriteNumber; 
     }
 
@@ -47,30 +47,6 @@ contract SimpleStorage{
         listOfPeople.push( Person(_favoriteNumber, _name));
         nameToFavouriteNumber [_name] = _favoriteNumber;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 
