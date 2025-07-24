@@ -21,6 +21,7 @@ contract StorageFactory {
     //Interacting with SimpleStorage from Storage Factory
     //Remember address and ABI 
     function sfStore (uint256 _simpleStorageindex, uint256 _newSimpleStorageNumber) public {
+        //Chery Picking
         SimpleStorage mySimpleStorage =listOfSimpleStorageContracts[_simpleStorageindex];
         mySimpleStorage.store(_newSimpleStorageNumber);
 
@@ -30,6 +31,8 @@ contract StorageFactory {
     function sfRetrieve(uint256 _simpleStorageIndex) public view returns (uint256){
         return listOfSimpleStorageContracts[_simpleStorageIndex].retrieve();
     }
+
+    
 
 
 

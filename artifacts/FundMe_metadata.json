@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "fund",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"02_RemixFundMe/contracts/FundMe.sol": "FundMe"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"02_RemixFundMe/contracts/FundMe.sol": {
+			"keccak256": "0x0d37de63d67e59dedb61eb5385efff640dd1bae901543d849e3e4b1bc9096751",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6f774447b3c4236cd54e858b770b7508436ef8d72dcba0232f8183f62691859d",
+				"dweb:/ipfs/QmWCyHsVxoPH8GNzRyMC1LgZFz8BBS96Xmscy7b9UTPGMw"
+			]
+		}
+	},
+	"version": 1
+}
